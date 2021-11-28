@@ -1,0 +1,55 @@
+\documentclass{article}
+
+% Símbolos
+\usepackage{recycle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Figuras
+\usepackage{graphicx}
+
+% Márgenes
+\addtolength{\voffset}{-1cm}
+\addtolength{\hoffset}{-1.5cm}
+\addtolength{\textwidth}{3cm}
+\addtolength{\textheight}{2cm}
+
+%% Definimos lema.
+\newtheorem{lemma}{Lema}
+
+% Encabezados y Pies de Página
+\usepackage{fancyhdr}
+% Información del Encabezado
+\lhead{L\'ogica Computacional 2022-1 \\
+       Tarea 4}
+     \rhead{Profesor: V\'ictor Zamora Guti\'errez \\
+       Ayudantes: Jos\'e Ricardo Desales Santos\\
+  Alma Rosa P\'aes Alcal\'a}
+% Información del Pie de Página
+\rfoot{\recycle}
+\cfoot{\vspace{-0.8cm}?`Realmente necesitas imprimir esta hoja?}
+\lfoot{\recycle}
+\pagenumbering{gobble}
+% Estilo
+\pagestyle{fancyplain}
+
+\begin{document}
+
+\begin{enumerate}
+  
+\item Decimos que un lenguaje es reconocible si existe un
+  algoritmo que, dada una cadena, nos responda ``s\'i'' cuando la
+  cadena pertenece al lenguaje (el algoritmo no da ninguna garant\'ia cuando la
+  cadena no pertenece al lenguaje).
+  \begin{enumerate}
+  \item ?`Qu\'e significa que un lenguaje sea reconocible pero no decidible?
+  \item D\'e un ejemplo de un lenguaje reconocible pero no decidible (distinto
+    al del inciso \ref{itm:haskell}).
+  \item \label{itm:haskell} Demuestre que el lenguaje de los programas en Haskell que se detienen es reconocible.
+  \end{enumerate}
+  
+\end{enumerate}
+
+\end{document}
+  
